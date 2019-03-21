@@ -33,7 +33,8 @@ pipeline {
                         environment name: 'VARIABLE', value: 'True'
                         
                     }
-                      script{
+                    
+                    script{
                         echo "Updating Thid Stage"
                          
                     }
