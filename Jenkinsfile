@@ -16,7 +16,7 @@ pipeline {
                 steps {
                     when {
                         environment name: 'VARIABLE', value: 'True'
-                        echo ${env.VARIABLE}
+                        echo "${env.VARIABLE}"
                     }
 
                     script{
